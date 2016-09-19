@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="ShipMile">
+  <head>
+    <title><%= "ShipMile" %></title>
+    <base href="/" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	
+	
+
+  </head>
+  <body>
+  	<h1><%= "ShipMile" %></h1>
+
+    <div class="shipmile_cntr">
+      <div class="shimile_cntr_top">
+        <div class="shipmile_heading"><%= "ShipMile Data" %></div>
+          <div class="shipmile_weight"><%= "Quantity" %>
+            <input class="shipmile_weight_value" type="text" />
+          </div>
+          <div class="shipmile_unit"><%= "Weight Unit" %>
+            <select id="volume">
+              <option value="gm" >gm</option>
+              <option value="kg" >kg</option>
+
+            </select>
+          </div>
+          <div class="shipmile_payment"><%= "Payment type" %>
+            <select id="type">
+              <option value="prepaid" >prepaid</option>
+              <option value="cash_on_delivery" >cash on delivery</option>
+
+            </select>
+          </div>
+
+          <div class="shipmile_status"><%= "Status" %>
+            <select id="status">
+              <option value="returned" >returned</option>
+              <option value="delivered" >delivered</option>
+
+            </select>
+          </div>
+          <div class="shipmile_origin"><%= "Pincode of User" %>
+            <input class="shipmile_origin_pincode_value" type="text" />
+          </div>
+          <div class="shipmile_destination"><%= "Pincode of Destination" %>
+            <input class="shipmile_destination_pincode" type="text" />
+          </div>
+          <div class="submit" id="shipmile_submit">submit</div>
+      </div>
+      <div class="shipmile_cntr_bottom" id="shipmile_cntr_bottom"></div>
+    </div>
+
+    </div>
+  	<p class="footer"><%= "ShipMile" %></p>
+    <script type="text/javascript" src="javascripts/shipMile.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,59 @@
+{
+	"V1":{
+		"g_500": {
+			"A":25, "B": 30, "C": 35, "D": 40, "E": 45
+		 }, 
+		"additional_500": {
+			"A": 15, "B": 20, "C": 25, "D": 30, "E": 35
+		 },
+		"return_charge": {
+			"A": 15, "B": 20, "C": 30, "D": 35, "E": 40
+		 },
+		"fuel_surcharge_percentage": 40,
+		"cod_amount": 40, 
+		"cod_percentage": 1.8
+	},
+
+	"V2":{
+		"every_500": {
+			"A":30, "B": 32, "C": 40, "D": 45, "E": 48
+		 }, 
+		"fuel_surcharge_percentage": 45,
+		"zones":["A", "B", "C", "D", "E"], 
+		"cod_amount": 40, 
+		"cod_percentage": 1.8
+	},
+
+    "V3":{
+		"every_500": {
+			"A":40, "B": 40, "C": 40, "D": 40, "E": 40
+		 }, 
+		"fuel_surcharge_percentage": 25,
+		"cod_amount": 41.5
+	},
+
+	"V4":{
+		"g_500": {
+			"A":25, "B": 25, "C": 40, "D": 40, "E": 40
+		 }, 
+		"additional_500": {
+			"A": 22, "B": 22, "C": 35, "D": 35, "E": 35
+		 },
+		"fuel_surcharge_percentage": 20,
+		"cod_amount": 45, 
+		"cod_percentage": 2
+	},
+
+	"shipMile":{
+		"g_500": {
+			"A":25, "B": 25, "C": 35, "D": 45, "E": 55
+		 }, 
+		"additional_500": {
+			"A": 25, "B": 20, "C": 30, "D": 40, "E": 50
+		 },
+		"fuel_surcharge_percentage": 0.25,
+		"cod_amount": 50, 
+		"cod_percentage": 0.2
+	}
+
+}
